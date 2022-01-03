@@ -207,8 +207,6 @@ class Get extends Component {
             //Loop all the items and write out their properties
             <React.Fragment key={item._id}>
             <ul id={item._id} className="ReviewContainer">
-           <li> <span>{this.state.errorMessage}</span> </li>
-          
                 <li><button onClick={() =>this.remove(item._id)}>x</button></li> 
                 <li><button onClick={() =>this.edit(item)}>edit</button></li> 
                 <li><h1>{item.movie} ★{item.rating}/5</h1></li>
