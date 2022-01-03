@@ -138,6 +138,7 @@ class Get extends Component {
                     return Promise.reject(error);
                 }
                //Store all the items from the database in an array
+               data.reverse();
                   this.setState({ array: data})
                   
                 
@@ -150,7 +151,7 @@ class Get extends Component {
     
     render() {
         const { array } = this.state
-      array.reverse();
+      
           return( 
             //Generate the html code
             <>
