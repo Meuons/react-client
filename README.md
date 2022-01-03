@@ -4,4 +4,4 @@
  
  ## Setup
  
- Install the app by typing npm install in the terminal and run it by tpying npm start
+ Install the app by typing npm install in the terminal and run it by typing npm start
